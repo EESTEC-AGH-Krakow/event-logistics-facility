@@ -48,7 +48,7 @@ This system is being created in order to facilitate these procedures, by taking 
   * attendence check by scanning QR codes
 
 #### Roles in the system
-Each user needs to have at least one role assigned. They can have more than one, apart from participants - if you are a participant, you can have no other role. 
+Each user needs to have a role assigned.
 * system administrator
   * all privileges
 * senior organiser - e.g. member of LC board or a coordinator
