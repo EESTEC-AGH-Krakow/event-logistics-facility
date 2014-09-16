@@ -91,7 +91,7 @@ The web client is going to be a single-page application, where the UI is rendere
 
 The mobile clients will be hybrid apps, where lots of web client code can be reused.
 
-#### Technolgies to be used
+#### Technologies to be used
 * web frontend
  * HTML5, CSS
  * Bootstrap
