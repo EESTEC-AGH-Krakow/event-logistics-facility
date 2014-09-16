@@ -8,7 +8,7 @@ NOTE: This is an early version of the documentation, many things may and will ch
 Integrated utility for facilitation of event organisation
 
 ### Definition of the problem
-EESTEC - Electrical Engineering Students' European AssoCiation - is a non-profit student organization for Electrical Engineering and Computer Science students in Europe with over 50 branches in about 30 countries. It is a pre-professional organization that empathizes a broad skill-set such as dif soft skills, but also technical skills in various fields. 
+EESTEC - Electrical Engineering Students' European AssoCiation - is a non-profit student organization for Electrical Engineering and Computer Science students in Europe with over 50 branches in about 30 countries. It is a pre-professional organization that empathizes a broad skill-set such as soft skills, but also technical skills in various fields. 
 
 Once in a while each local commitee(later called LC) organises workshops for foreign students which usually last about a week, which members of other LCs can apply to. Usually about 20 participants are chosen, but there are some in which many more people participate. Such events require some logistics, including venue reservation, departures and arrivals, participant supervision, schedule management and many more. Many LCs deal with it by developing specific procedures which are then followed by event organising committees. This, however, often results in repeating many tedious steps which could easily be automated or at least simplified. 
 
