@@ -16,6 +16,12 @@ Once in a while each local commitee(later called LC) organises workshops for for
 This system is being created in order to facilitate these procedures, by taking best practises from different LCs, automatising the processes and integrating them into one system. The whole organisational process is going to be managed entirely by this system.
 
 ### Functional requirements:
+* participant management
+ * participants can apply for an event, provide their basic personal info, motivational letters, etc.
+ * organisers can view applications, application statistics, order applications with the use of a custom "fitness function" and then approve participants manually
+ * approved participants get an email notification with a link to confirm participation
+ * upon confirmation an account is created for the participants, where they can provide more detailed information or adjust them
+ * participants can provide feedback to organisers
 * schedule management
  * create and modify schedule
  * customizable schedule view (e.g. show only two nearest schedule entries)
@@ -33,10 +39,39 @@ This system is being created in order to facilitate these procedures, by taking 
     * survival guides
     * regulations
     * important information (e.g. phone numbers)
-    * info of the day - short custom messages from organizers pushed to participants' devices
+    * alerts - short custom messages from organisers pushed to participants' devices
 * participant supervision
   * supervision enrollment - people from the organising LC enroll to be responsible for some schedule entry, for each schedule entry there are slots for organisers
+    * enroll to be responsible for a schedule entry
+    * cancel your enrollment - other users with organiser role get notified about emptied spots
+    * view supervision enrollment statistics
   * attendence check by scanning QR codes
+
+#### Roles in the system
+Each user needs to have at least one role assigned. They can have more than one, apart from participants - if you are a participant, you can have no other role. 
+* system administrator
+  * all privileges
+* senior organiser - e.g. member of LC board or a coordinator
+  * create event
+  * create and modify schedule
+  * manage venues
+  * upload resources
+  * manage participants and applicants
+  * manage supervision enrollment
+  * push custom alerts to participants
+* basic organiser - regular member of the organising LC
+  * view participants
+  * view schedule with venues, write comments for senior organisers
+  * enroll for supervision
+  * view supervision
+  * check attendance if you are a responsible for an entry
+* participant
+  * apply for event
+  * modify personal information
+  * view resources
+  * view schedule with venues
+  * receive notifications
+  * provide feedback
 
 ### Non-functional requirements:
 * web client with broad browser support
