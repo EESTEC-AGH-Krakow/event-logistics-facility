@@ -1,0 +1,4 @@
+rootProject.name = "eec"
+
+include ":hybrid_client"
+include ":server"
