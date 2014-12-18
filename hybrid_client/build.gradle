@@ -1,0 +1,13 @@
+import org.apache.tools.ant.taskdefs.condition.Os
+
+def isWindows() {
+    return Os.isFamily(Os.FAMILY_WINDOWS)
+}
+
+task prepareCordova(type: Exec) {
+    if (isWindows()) {
+        commandLine 'cmd','/c','npm install -g cordova'
+    } else {
+        commandLine 'npm install -g cordova'
+    }
+}

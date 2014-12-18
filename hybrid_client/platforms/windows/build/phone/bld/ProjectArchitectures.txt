@@ -1,0 +1,1 @@
+c:\Users\maslp\event-logistics-facility\hybrid_client\platforms\windows\CordovaApp.Phone.jsproj;neutral

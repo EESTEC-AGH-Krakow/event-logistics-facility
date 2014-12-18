@@ -1,0 +1,1 @@
+c:\Users\maslp\event-logistics-facility\hybrid_client\platforms\windows\AppPackages\CordovaApp.Windows80_0.0.1.0_anycpu_debug_Test\CordovaApp.Windows80_0.0.1.0_anycpu_debug.appx
